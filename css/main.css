@@ -363,7 +363,7 @@ img.mfp-img {
 	
 	/*Navbar*/
 	#navigation .navbar-nav {
-		top: 2px;
+		top: 20px;
 	}
 		
 	/*Dropdown Menu*/
@@ -582,6 +582,7 @@ img.mfp-img {
     padding-left: 0;
 	margin-left:-15px;
 	margin-right:-15px;
+	margin-left: 0px;
 }
 
 .search{
@@ -728,10 +729,10 @@ img.mfp-img {
 ========= Navigation ===========
 ================================*/
 
-.navbar {
+/*.navbar {
 	border-radius:0;
 	border-bottom:1px solid rgba(0, 0, 0, 0.10);
-}
+}*/
 
 #mainmenu li a:hover {
 	color:inherit;
@@ -2509,33 +2510,46 @@ img.mfp-img {
 .icon-bar{
 	display: block;
     width: 22px;
-    height: 2px;
+    height: 10px;
     border-radius: 1px;
+    border: 1px; 
+    color:#000;
+    border-bottom:2px solid #000;
 }
 .space-custom{
 	margin:0px;
-	width: 100%;
+	width: 115%;
 	height: 250px; 
 }
 .image-full{
  padding:0px; 
+ width:115%;
 }
 .image-g2-custom{
-	width: 100%;
 	height: 600px;
+	width:100%;
+}
+.image-g8-custom{
+	height: 600px;
+	width:100%;
+	position: relative;
+}
+.image-g9-custom{
+	height: 600px;
+	width:100%;
 }
 .para-font{
-font-size: 118px;
+font-size: 112px;
 font-weight: 900;
 color:#c3cbd8;
-letter-spacing:.25em;
-word-spacing:.25em;
+letter-spacing:.2em;
+word-spacing:.2em;
 margin-left: 60px;
 }
 .col-margin-text
 {
 	margin-top: -40px;
-	margin-bottom: -50px;
+	margin-bottom: -40px;
 }
 .col-bx-1{
 	width:600px;
@@ -2568,7 +2582,7 @@ height:600px;
 	color:#fff; 
 }
 .col-margin{
-	margin:10px 15px;
+	margin:40px 15px;
 }
 .row-custom{
 	background-color: #000;
@@ -2581,15 +2595,180 @@ height:600px;
 
 }
 .image-g5-custom{
-	width:80%;
+	width:100%;
 	height:200px;
 
 }
+.image-g6-custom{
+	width:100%;
+	height:200px;
+
+}
+.image-g7-custom{
+	width:100%;
+	height:200px;
+}
+
 .image-g15-custom{
 	width:80%;
 	height:200px;
 }
-/*=========================================:: END :: =============================================*/
+.image-g16-custom{
+	height:35px;
+	width:100px;
+	padding-right: 10px;
+}
+@media (min-width: 1360px){
+.container {
+    width: 1360px;
+}
+}
+.col-md-margin{
+	margin:0px;
+}
+.row-bottom-margin{
+	margin-bottom: 30px;
+}
+.li-font{
+	font-size: 24px;
+	font-weight: 500;
+	color:#fff;
+	width:325px;
+}
+.li-header-font{
+	font-size: 20px;
+	font-weight: 400;
+	color:#fff;
+  padding: 5px 10px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+ /* margin-right: 351px;*/
+ width:200px;
+ text-align:center;
+}
+.list-custom{
+/*	border-top: 1px solid #fff;*/
+	border-bottom: 1px solid #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:400px;
+
+}
+.li-h2-font{
+	font-size: 140px;
+	color:#fff;
+	font-weight:100;
+	margin-top: 75px;
+    margin-bottom: -65px;
+}
+.li-h2-custom{
+		font-size: 140px;
+	color:#fff;
+	font-weight:100;
+	margin-left: 378px;
+	margin-top: -80px;
+    margin-bottom: 90px;
+}
+.ul-margin{
+	margin-bottom: -135px;
+}
+.li-image-margin{
+	margin: 20px 0px;
+}
+.col-md-color{
+	height:140px;
+	background-color:#111b25;
+}
+.para3-font{
+font-size: 116px;
+font-weight: 900;
+color:#000;
+letter-spacing:.2em;
+word-spacing:.2em;
+margin-left: 60px;
+}
+.p-text { 
+   position: absolute; 
+   top: 460px; 
+   left: 0; 
+   width: 100%; 
+   color:#fff;
+   font-size:46px;
+}
+.p-text:hover {
+    display: none;
+}
+.subscribe{
+padding:0px; 
+}
+.shop{
+padding:0px; 
+}
+.USA{
+padding: 0px;
+margin-right: 35px;
+}
+.sign{
+padding:0px; 
+}
+.style-list{
+	padding:0px 10px;
+  border-right: 1px solid #d4d6d8;
+  border-left: 1px solid #d4d6d8;
+ 
+}
+.explore{
+	font-size: 14px;
+}
+.story{
+	font-size: 14px;
+}
+.span-color{
+	color:#fff;
+	font-size: 12px;
+}
+.subscribe{
+	text-align: left;
+	border-left: 1px solid #000;
+	padding-left: 15px;
+}
+input{
+	font-size: 32px !important;
+}
+.btn-custom
+{ background-color: #000;
+	width:140px;
+	height: 50px;
+  line-height: 55px;
+  color:#fff;
+}
+.follow{
+	text-align: left;
+	padding-left: 30px;
+	border-left: 1px solid #000;
+	margin-bottom:20px;
+}
+.fa-size{
+	font-size: 40px;
+	margin-right: 20px;
+}
+.container-color{
+	background-color: #eee;
+}
+.p-text-subscribe{
+	color:#9ea2a8;
+	font-size: 14px;
+}
+.p-follow{
+	color:#9ea2a8;
+	font-size: 16px;
+}
+.style-list-right{
+	font-size: 16px;
+}
+
+/*
+=========================================:: END :: =============================================*/
 
 
 
